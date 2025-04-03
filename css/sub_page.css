@@ -12,6 +12,9 @@
 .w-30{
   width: 30%;
 }
+.w-20{
+  width: 20%;
+}
 .w-70{
   width: 70%;
 }
@@ -160,6 +163,13 @@
   line-height: 1.2;
   word-break: keep-all;
 }
+.sub-page-title-2{
+  font-size: var(--text-size-32);
+  color: #1E1E1E;
+  font-weight: 700;
+  line-height: 1.2;
+  word-break: keep-all;
+}
 .sub-page-title .mini-t{
   font-size: var(--text-size-32);
 }
@@ -242,6 +252,10 @@
 
   width: 40%;
 }
+.img-info-ing-div.flex-70{
+
+  width: 50%;
+}
 .img-info-ing-div.flex-40 img{
   width: 100%;
 }
@@ -257,6 +271,10 @@
   font-size: var(--text-size-24);
   line-height: 1.5;
   color: #2B4169;
+}
+.img-info-long-text.small{
+  font-size: var(--text-size-18);
+
 }
 .img-info-long-text.w-60{
   width: 60%;
@@ -301,6 +319,9 @@
   line-height: 1.5;
   color: #81765B;
   font-weight: 800;
+}
+.gold-text-box.big{
+  font-size: var(--text-size-24);
 }
 .gold{
   color: #81765B;
@@ -1262,7 +1283,10 @@ ul .swiper-txt p{
   .sub-page-title{
     font-size: var(--text-size-32);
   }
-  .sub-page-title .mini-t{
+  .sub-page-title-2{
+    font-size: var(--text-size-24);
+  }
+  .sub-page-title{
     font-size: var(--text-size-24);
   }
   .icon-card-div{
@@ -1401,6 +1425,9 @@ ul .swiper-txt p{
   }
   .img-info-long-text{
     font-size: var(--text-size-18);
+  }
+  .img-info-long-text.small{
+    font-size: var(--text-size-16);
   }
   .banner-text h2{
     font-size: var(--text-size-24);
